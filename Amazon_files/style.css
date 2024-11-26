@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{background-color: white;
+    height: 100vh;
+    width: 99vw;
+    
+}
+nav{
+    height: 10vh;
+    width: 99vw;
+    background-color: black;
+    display: flex;
+
+}
+.nav1 img{
+     height: 20px;
+     margin:15px;
+}
+.line {
+    height: 25px;
+    width: 2px;
+    background-color: #66696e;
+  }
+  .nav1 p {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  i {
+    color: white;
+  }
+  
+  .nav1 {
+    display: flex;
+    width: 60vw;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .join {
+    background-color: #1a98ff;
+    height: 40px;
+    width: 100px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+  
+    p {
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+  .circle {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-image: url("./https://media.gettyimages.com/id/1196083861/vector/simple-man-head-icon-set.jpg?s=612x612&w=gi&k=20&c=fB4Wqfu3RgboouYZihT2L_erUOvPIbK5fR74uifSxe4=");
+    background-position: center;
+    background-size: cover;
+    background-color: aliceblue;
+  }
+  
+  .nav2 {
+    align-items: center;
+    padding-left: 140px;
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+  }
+  .nav2 p {
+    font-size: 14px;
+    font-weight: 600;
+  
+    i {
+      margin-left: 10px;
+    }
+  }
+  .box {
+    height: 65vh;
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 70px;
+    justify-content: space-between;
+  }
+  .box2 {
+    height: 75vh;
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 50px;
+    padding-right: 36px;
+    justify-content: space-between;
+    /* border: solid red; */
+    
+  }
+   .box3{
+    width: 48%;
+    height: 75vh;
+     /* background-color: #1a98ff;  */
+     display: flex;
+    background-size: cover;
+    background-position: center;
+    /* border: solid blue; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    
+  } 
+  .boxx{
+    /* border: solid yellow; */
+    height: 300px;
+    width: 200px;
+    margin: 3px;
+    
+    background-size: cover;
+    background-position: center;
+  }
+  .boxx:first-child{
+    background-image: url("./11.jpg");
+  }
+  .boxx:last-child{
+    background-image: url("./99.jpeg");
+  }
+  .boxx:nth-child(2){
+    background-image: url("./22.jpg");
+  }
+  .boxx:nth-child(3){
+    background-image: url("./33.jpeg");
+  }
+  .boxx:nth-child(4){
+    background-image: url("./44.jpg");
+  }
+  .boxx:nth-child(5){
+    background-image: url("./55.jpg");
+  }
+  .boxx:nth-child(6){
+    background-image: url("./66.jpeg");
+  }
+  .boxx:nth-child(7){
+    background-image: url("./77.jpg");
+  }
+  .boxx:nth-child(8){
+    background-image: url("./88.jpeg");
+  }
+
+  
+    
+  
+  /* .box4{
+    width: 50vw;
+    height: 100%;
+     background-color: #1a98ff; 
+     display: flex;
+    margin-left: 2px;
+    
+    background-size: cover;
+    background-position: center;
+    margin-top: 2px;
+    align-items: center;
+    justify-content: center; 
+    border: solid blue;
+  }
+  .box5{
+    width: 50vw;
+    height: 100%;
+     background-color: #1a98ff; 
+     display: flex;
+    margin-left: 2px;
+    
+    background-size: cover;
+    background-position: center;
+    margin-top: 2px;
+    align-items: center;
+    justify-content: center; 
+    border: solid blue;
+  } */
+  .boxx{
+    height:20px ;
+    width: 20px;
+  }
+  #box-id {
+    width: 40vw;
+  }
+  
+  main {
+    height: 90vh;
+    width: 98.7vw;
+    background-color: black;
+    background-image: url("https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg");
+    background-size: cover;
+    color: white;
+    /* background-position: center; */
+    display: flex;
+  }
+  
+  main button {
+    color: black;
+    background-color: white;
+    padding: 20px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  
+  main h1 {
+    font-size: 45px;
+  }
+  
+  main p {
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 30px;
+  }
+  section {
+    display: flex;
+    height: 90vh;
+    width: 98.7vw;
+    background-color: black;
+    color: white;
+  }
+  .boxes {
+    height: 60vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    
+    justify-content: space-between;
+  }
+  .box1 {
+    height: 75vh;
+    width: 97vw;
+    background-image: url("https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg");
+    
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 60px;
+    justify-content: space-between;
+  }
+  section h1 {
+    font-size: 45px;
+  }
+  
+  section p {
+    font-size: 20px;
+    font-weight: 550;
+  }
+  
+  section button {
+    color: black;
+    background-color: white;
+    padding: 20px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  
+  
+  footer {
+    height: 135px;
+    background-color: #222222;
+    width: 98.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-block: 16px;
+  }
+  .fut {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .fut p {
+    color: #79b8f3;
+  }
+  
+  .fur2 {
+    color: #687882;
+  }
+
+  .img{
+    /* background-image: url(./11.jpg); */
+    background-position: center;
+    background-size: cover;
+
+  }
+  
